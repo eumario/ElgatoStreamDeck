@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElgatoStreamDeck", "ElgatoStreamDeck.csproj", "{B7C8BF9B-0A18-482A-872C-16408B2BE36C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C8BF9B-0A18-482A-872C-16408B2BE36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C8BF9B-0A18-482A-872C-16408B2BE36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C8BF9B-0A18-482A-872C-16408B2BE36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C8BF9B-0A18-482A-872C-16408B2BE36C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
