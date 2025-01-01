@@ -2,20 +2,28 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Authors>Mario Steele, TheJebForge</Authors>
+        <Version>1.0.0</Version>
+        
+        <AssemblyTitle>Elgato Stream Deck USB API</AssemblyTitle>
+        <PackageTags>usb;streamdeck;elgato</PackageTags>
         <Description>C# Library for Accessing the Elgato Stream Deck device through USB connection.</Description>
-        <Copyright>2023, 2024, 2025</Copyright>
-        <PackageProjectUrl>https://github.com/eumario/ElgatoStreamDeck</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/eumario/ElgatoStreamDeck/LICENSE.md</PackageLicenseUrl>
+        <Authors>Mario Steele, TheJebForge</Authors>
         <RepositoryUrl>https://github.com/eumario/ElgatoStreamDeck</RepositoryUrl>
+        <License>LICENSE</License>
+        <PackageProjectUrl>https://github.com/eumario/ElgatoStreamDeck</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Copyright>2023, 2024, 2025</Copyright>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="HidApi.Net" Version="1.1.0" />
       <PackageReference Include="SixLabors.ImageSharp" Version="3.1.6" />
+      <None Include="README.md" Pack="true" PackagePath=""/>
+      <None Include="LICENSE" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
